@@ -1,0 +1,5 @@
+PySens is a simple, command-line program written in Python(both 2.x and 3.x can run it).
+It uses built-in shell(bash/zsh/other) and package lm-sensors. It can be ran on most of
+the linux distros(any that have lm-sensors preinstalled or installable, ex. Mint, Fedora,
+Ubuntu, Puppy...), but not on native Windows(you have SpeedFan for that).
+Currently, there are no known bugs or issues(because, well, it's just 6 lines long).
