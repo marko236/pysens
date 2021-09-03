@@ -24,7 +24,7 @@ def ins():
 	sno=sn.read()
 	lb.delete('1.0',END)
 	lb.insert(END,sno)
-
+ins()
 Button(win,text=">REFRESH<",command=ins).pack()
 Button(win,text=">>EXIT<<",command=exit).pack()
 win.mainloop()
