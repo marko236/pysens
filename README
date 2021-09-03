@@ -4,3 +4,4 @@ It uses built-in shell(bash/zsh/other) and package lm-sensors. It can be ran on 
 the linux distros(any that have lm-sensors preinstalled or installable, ex. Mint, Fedora,
 Ubuntu, Puppy...), but not on native Windows(you have SpeedFan for that).
 Currently, there are no known bugs or issues(because, well, it's just 6 lines long).
+EDIT: 3.9.2021 - PySens has a GUI now(using tkinter so mostly no need to install it).
