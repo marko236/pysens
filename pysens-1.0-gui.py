@@ -1,6 +1,10 @@
-from tkinter.ttk import * # For 2.x use Tkinter instead of tkinter 
-from tkinter import END,Text,Tk # Same here
-from tkinter.messagebox import * # and here
+try:
+	from tkinter.ttk import *
+	from tkinter import END,Text,Tk
+	from tkinter.messagebox import *
+except ImportError:
+	print("You need Python 3.x to run this program")
+	exit()
 import os
 import time
 
