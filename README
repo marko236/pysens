@@ -1,7 +1,8 @@
 PySens is a simple, command-line program written in Python(both 2.x and 3.x can run it).
 It was made because the 'sensors' command shows sensor-detected temperatures only once, while PySens uses a real-time WHILE loop.
 It uses built-in shell(bash/zsh/other) and package lm-sensors. It can be ran on most of
-the linux distros(any that have lm-sensors preinstalled or installable, ex. Mint, Fedora,
-Ubuntu, Puppy...), but not on native Windows(you have SpeedFan for that).
+the linux distros(any that have lm-sensors preinstalled or installable(ex. Mint, Fedora,
+Ubuntu, Puppy...)), but not on native Windows(you have SpeedFan for that).
 Currently, there are no known bugs or issues(because, well, it's just 6 lines long).
-EDIT: 3.9.2021 - PySens has a GUI now(using tkinter so mostly no need to install it).
+3.9.2021 - PySens has a GUI now(using tkinter so mostly no need to install it).
+11.6.2022 - Version 1.1 released. Added options to adjust refresh rate and show/hide prevoius outputs
